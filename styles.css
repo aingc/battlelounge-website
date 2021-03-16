@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'g7_after_burner_ttfregular';
+  src: url('assets/g7_after_burner_ttf-webfont.woff2') format('woff2'),
+    url('assets/g7_after_burner_ttf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo-container {
+  margin: 0 auto;
+  height: 50%;
+}
+
+.logo-name {
+  font-size: 2em;
+  padding: 0 0.5em 0.25em 0.5em;
+  border-bottom: solid 2px #ffffff;
+  color: #ffffff;
+  font-weight: 200;
+  font-family: 'g7_after_burner_ttfregular', sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.logo-name-large {
+  font-size: 8em;
+}
+
+.logo-description {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.main-header {
+  background-image: url('images/banner.jpg');
+  /*background-blend-mode: multiply;*/
+  background-size: cover;
+  padding-bottom: 30px;
+  min-height: 75vh;
+}
+
+header h1 {
+  color: #ffffff;
+  width: 50%;
+  margin: 0 auto;
+}
