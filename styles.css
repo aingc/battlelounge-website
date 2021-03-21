@@ -94,7 +94,7 @@ nav {
   /*background-blend-mode: multiply;*/
   background-size: cover;
   padding-bottom: 30px;
-  min-height: 75vh;
+  min-height: 500px;
 }
 
 header h1 {
